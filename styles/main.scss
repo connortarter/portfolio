@@ -25,7 +25,9 @@ h2 {
   }
 
  &.bridge {
-  background-image: url('../img/full-width.jpg');
+  // Your bridge wasn't showing up because you specified an incorrect filepath
+  // simple mistake  : ) 
+  background-image: url('../img/bridge/full-width.jpg');
   width: 100%;
  }
 
